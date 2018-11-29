@@ -1,3 +1,5 @@
+
+
 h1 {
   color:red;
   font-family:Arial
@@ -5,12 +7,18 @@ h1 {
 }
 
 header {
+      position = fixed;
+      left = 0;
+      right = 0;
+      z-index= 999;
       text-align: center;
       background-color: #000000;
       background: url("http://pluspng.com/img-png/film-reel-png-roddes-movie-and-music-reviews-5672.png");
       background-position: 100% 100%;
       background-repeat: no-repeat;
-      color: white;
+      color: red;
+      font-family: monospace;
+
       }
 
       a {
@@ -22,7 +30,7 @@ header {
         font-size: 70px;
       }
 
-    ul {
+      ul {
       padding: 10px;
       background: black;
     }
@@ -41,9 +49,10 @@ header {
     }
 
     div.map{
-      background-color:grey;
-      width: 50%;
-      height:500px;
+      background-image: url('https://runforthehills.com/wp-content/uploads/2015/02/Central-London-Film-Map-Black.jpg');
+      background-size: cover;
+      width: 90%;
+      height:800px;
       align-items: center;
       margin: 20px;
 
