@@ -32,3 +32,12 @@ header {
       padding: 0px 10px 0px 10px;
 
     }
+
+    div.map{
+      background-color:grey;
+      width: 50%;
+      height:500px;
+      align-items: center;
+      margin: 20px;
+
+    }
