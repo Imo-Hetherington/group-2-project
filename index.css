@@ -1,6 +1,6 @@
 h1 {
   color:red;
-  font-family:Arial
+  font-family: 'Limelight', cursive;
   height:20px
 }
 
@@ -11,15 +11,17 @@ header {
       background-position: 100% 100%;
       background-repeat: no-repeat;
       color: white;
+      font-family: 'Limelight', cursive;
       }
 
       a {
         color: red;
-
+        font-family: 'Limelight', cursive;
       }
 
       h1 {
         font-size: 70px;
+        font-family: 'Limelight', cursive;
       }
 
     ul {
@@ -33,11 +35,33 @@ header {
 
     }
 
-    div.map{
-      background-color:grey;
-      width: 50%;
-      height:500px;
-      align-items: center;
-      margin: 20px;
+div.map{
+  background-color:grey;
+  width: 50%;
+  height:500px;
+  align-items: center;
+  margin: 20px;
 
-    }
+}
+
+h2 {
+  font-family: 'Limelight', cursive;
+}
+
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  background: red;
+  color: white;
+}
+
+article {
+  border: 7px solid black;
+  border-radius: 20px;
+  margin: 40px 0px 40px 0px;
+  
+}
