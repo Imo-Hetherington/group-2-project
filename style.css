@@ -3,7 +3,6 @@
 
 div.header {
       padding-top:0px;
-      margin-top:0px;
       text-align: center;
       background-color: #000000;
       background: url('header-background-min.png');
@@ -17,6 +16,8 @@ div.header {
       }
 
       h1 {
+        margin-block-start: 0;
+        margin-block-end:0;
         padding-top: 50px;
         color:red;
         font-family:Arial;
