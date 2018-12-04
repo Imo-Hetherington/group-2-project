@@ -16,6 +16,8 @@ div.header {
       }
 
       h1 {
+        margin-block-start: 0;
+        margin-block-end:0;
         padding-top: 50px;
         color:red;
         font-family:Arial;
