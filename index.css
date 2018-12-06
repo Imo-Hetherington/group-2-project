@@ -1,0 +1,56 @@
+
+
+
+div.header {
+      padding-top:0px;
+      text-align: center;
+      background-color: #000000;
+      background: url('header-background-min.png');
+      background-position: 100% 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 240px;
+      color: red;
+      font-family: monospace;
+
+      }
+
+      h1 {
+        padding-top: 50px;
+        color:red;
+        font-family:Arial;
+        font-size: 70px;
+      }
+
+      a {
+        color: red;
+
+      }
+
+      ul {
+      padding: 10px;
+      background: black;
+    }
+
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+
+    }
+
+    li input[type=text] {
+      float: right;
+      border: none;
+      margin-right: 16px;
+      font-size:15px;
+    }
+
+    div.map{
+      background-image: url('https://runforthehills.com/wp-content/uploads/2015/02/Central-London-Film-Map-Black.jpg');
+      background-size: cover;
+      width: 90%;
+      height:800px;
+      align-items: center;
+      margin: 20px;
+
+    }
