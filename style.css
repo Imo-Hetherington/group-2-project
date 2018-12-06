@@ -1,6 +1,7 @@
 div.header {
   padding-top: 0px;
   text-align: center;
+  left:0;
   background-color: #000000;
   background: url('media/header-background-min.png');
   background-position: 100% 100%;
