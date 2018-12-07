@@ -1,3 +1,9 @@
 h1 {
   margin:0;
 }
+
+.first-container {
+    padding-top: 277px;
+    padding-bottom: 37px;
+    background-color: #FFCC99;
+}
