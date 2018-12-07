@@ -1,15 +1,14 @@
 div.header {
   padding-top: 0px;
   text-align: center;
-  background-color: #000000;
+  background-color: #000;
   background: url('media/header-background-min.png');
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 240px;
-  color: #ea2367;
+  color: #fe0020;
   font-family: monospace;
-  /* font-weight: strong; */
   margin-bottom: 30px;
   position: fixed;
   width: 100%;
@@ -20,13 +19,14 @@ h1 {
   margin-block-start: 0;
   margin-block-end:0;
   padding-top: 50px;
-  color:red;
+  color: #fe0020;
   font-family: Arial;
   font-size: 70px;
+  font-weight: 800;
 }
 
 a {
-  color: #ea2367;
+  color: #fe0020;
 
 }
 
@@ -43,7 +43,6 @@ li {
 
 li input[type=text] {
   float: right;
-
 }
 
 #search-box {
@@ -57,7 +56,7 @@ li input[type=text] {
 .map-container {
     padding-top: 277px;
     padding-bottom: 37px;
-    background-color: #b82345;
+    background-color: #fe0020;
 }
 
 .map {
@@ -72,4 +71,27 @@ li input[type=text] {
 }
 .cinema-list > img {
   width: 500px;
+}
+
+
+.form-container {
+  border-radius: 5px;
+  background-color: #fe0020;
+  padding: 20px;
+}
+
+.light {
+  color: #fee;
+}
+
+input[type=textarea] {
+  height: 150px;
+}
+
+input.placeholder {
+  text-align: right;
+}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
 }
