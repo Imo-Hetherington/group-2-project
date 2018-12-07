@@ -2,55 +2,133 @@
 
 
 div.header {
-      padding-top:0px;
-      text-align: center;
-      background-color: #000000;
-      background: url('header-background-min.png');
-      background-position: 100% 100%;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 240px;
-      color: red;
-      font-family: monospace;
+  padding-top:0px;
+  text-align: center;
+  background-color: #000000;
+  background: url('header-background-min.png');
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 240px;
+  color: red;
+  font-family: monospace;
 
-      }
+}
 
-      h1 {
-        padding-top: 50px;
-        color:red;
-        font-family:Arial;
-        font-size: 70px;
-      }
+h1 {
+  padding-top: 50px;
+  color:red;
+  font-family:Arial;
+  font-size: 70px;
+}
 
-      a {
-        color: red;
+a {
+  color: red;
 
-      }
+}
 
-      ul {
-      padding: 10px;
-      background: black;
-    }
+ul {
+  padding: 10px;
+  background: black;
+}
 
-    li {
-      display: inline;
-      padding: 0px 10px 0px 10px;
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
 
-    }
+}
 
-    li input[type=text] {
-      float: right;
-      border: none;
-      margin-right: 16px;
-      font-size:15px;
-    }
+li input[type=text] {
+  float: right;
+  border: none;
+  margin-right: 16px;
+  font-size:15px;
+}
 
-    div.map{
-      background-image: url('https://runforthehills.com/wp-content/uploads/2015/02/Central-London-Film-Map-Black.jpg');
-      background-size: cover;
-      width: 90%;
-      height:800px;
-      align-items: center;
-      margin: 20px;
+div.map{
+  background-image: url('https://runforthehills.com/wp-content/uploads/2015/02/Central-London-Film-Map-Black.jpg');
+  background-size: cover;
+  width: 90%;
+  height:800px;
+  align-items: center;
+  margin: 20px;
 
-    }
+}
+
+
+
+.fullpage {
+  background-color: grey;
+  height: 86vh;
+  width: 100vw;
+}
+
+
+.halfheight{
+  height: 50%;
+}
+/*///////////////////////IMAGES////////////////////////////////////////*/
+.img1 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img2 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img3 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img4 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img5 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img6 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img7 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img8 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+
+/*//////////////////////////////////////////////////////////////////////*/
+.mobileheight {
+  position: relative;
+}
+
+/*////////////////////////MOBILE CHANGES//////////////////////////////////////////*/
+@media only screen and (max-width: 768px) {
+  .mobileheight {
+    height: 100vh;
+  }
+
+  .halfheight {
+    height: auto;
+  }
