@@ -74,3 +74,79 @@ li input[type=text] {
 .cinema-list > img {
   width: 500px;
 }
+
+.fullpage {
+  background-color: grey;
+  height: 86vh;
+  width: 100vw;
+}
+
+
+.halfheight{
+  height: 50%;
+}
+/*///////////////////////IMAGES////////////////////////////////////////*/
+.img1 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img2 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img3 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img4 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img5 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img6 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img7 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img8 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+
+/*//////////////////////////////////////////////////////////////////////*/
+.mobileheight {
+  position: relative;
+}
+
+/*////////////////////////MOBILE CHANGES//////////////////////////////////////////*/
+@media only screen and (max-width: 768px) {
+  .mobileheight {
+    height: 100vh;
+  }
+
+  .halfheight {
+    height: auto;
+  }
