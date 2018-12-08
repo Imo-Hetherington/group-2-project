@@ -78,18 +78,9 @@ li input[type=text] {
   color: #fee;
 }
 
-input[type=textarea] {
-  height: 150px;
-}
-
-input.placeholder {
-  text-align: right;
-}
-
 input:focus::-webkit-input-placeholder {
     opacity: 0;
 }
-
 
 footer > p {
   padding-top: 20px;
