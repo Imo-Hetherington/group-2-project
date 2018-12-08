@@ -2,16 +2,19 @@ div.header {
   padding-top: 0px;
   left: 0;
   text-align: center;
+<<<<<<< HEAD
   left:0;
   background-color: #000000;
+=======
+  background-color: #000;
+>>>>>>> master
   background: url('media/header-background-min.png');
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 240px;
-  color: #ea2367;
+  color: #fe0020;
   font-family: monospace;
-  /* font-weight: strong; */
   margin-bottom: 30px;
   position: fixed;
   width: 100%;
@@ -22,13 +25,14 @@ h1 {
   margin-block-start: 0;
   margin-block-end:0;
   padding-top: 50px;
-  color:red;
+  color: #fe0020;
   font-family: Arial;
   font-size: 70px;
+  font-weight: 800;
 }
 
 a {
-  color: #ea2367;
+  color: #fe0020;
 
 }
 
@@ -45,7 +49,6 @@ li {
 
 li input[type=text] {
   float: right;
-
 }
 
 #search-box {
@@ -54,12 +57,6 @@ li input[type=text] {
   margin-bottom: 30px;
   border: none;
   font-size:15px;
-}
-
-.map-container {
-    padding-top: 277px;
-    padding-bottom: 37px;
-    background-color: #b82345;
 }
 
 .map {
@@ -75,3 +72,100 @@ li input[type=text] {
 .cinema-list > img {
   width: 500px;
 }
+
+
+.form-container {
+  border-radius: 5px;
+  background-color: #fe0020;
+  padding: 20px;
+}
+
+.light {
+  color: #fee;
+}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+footer > p {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+=======
+.fullpage {
+  background-color: grey;
+  height: 86vh;
+  width: 100vw;
+}
+
+
+.halfheight{
+  height: 50%;
+}
+/*///////////////////////IMAGES////////////////////////////////////////*/
+.img1 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img2 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img3 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img4 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img5 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img6 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img7 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.img8 {
+  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+
+/*//////////////////////////////////////////////////////////////////////*/
+.mobileheight {
+  position: relative;
+}
+
+/*////////////////////////MOBILE CHANGES//////////////////////////////////////////*/
+@media only screen and (max-width: 768px) {
+  .mobileheight {
+    height: 100vh;
+  }
+
+  .halfheight {
+    height: auto;
+  }
+
