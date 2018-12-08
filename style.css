@@ -90,38 +90,31 @@ footer > p {
 
 .fullpage {
   background-color: grey;
-  height: 86vh;
-  width: 100vw;
+  height: 100vh;
+  width: 200vh
 }
 
 
-.halfheight{
-  height: 50%;
-}
 /*///////////////////////IMAGES////////////////////////////////////////*/
 .img1 {
-  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
-  background-size: cover;
-  background-position: center;
-  filter: grayscale(100%);
+  background-image: url('media/Prince-Charles-Cinema.jpg');
+  background-size: square;
+    background-position: center;
 }
 .img2 {
-  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
-  background-size: cover;
+  background-image: url('media/Lexi-Cinema.jpg');
+  background-size: square;
   background-position: center;
-  filter: grayscale(100%);
 }
 .img3 {
-  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-image: url('media/Phoenix-Cinema.jpg');
   background-size: cover;
   background-position: center;
-  filter: grayscale(100%);
 }
 .img4 {
-  background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
+  background-image: url('media/Phoenix-Cinema.jpg');
   background-size: cover;
   background-position: center;
-  filter: grayscale(100%);
 }
 .img5 {
   background-image: url('https://images.savoysystems.co.uk/PCH/4358085.jpg');
@@ -150,7 +143,6 @@ footer > p {
 
 .halfheight {
   height: auto;
-  width: auto;
 }
 
 /*//////////////////////////////////////////////////////////////////////*/
@@ -159,7 +151,7 @@ footer > p {
 }
 
 /*////////////////////////MOBILE CHANGES//////////////////////////////////////////*/
-@media only screen and (max-width:2000px) {
+@media only screen and (max-width:798px) {
   .mobileheight {
     height: 100vh;
   }
