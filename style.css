@@ -2,12 +2,7 @@ div.header {
   padding-top: 0px;
   left: 0;
   text-align: center;
-<<<<<<< HEAD
-  left:0;
   background-color: #000000;
-=======
-  background-color: #000;
->>>>>>> master
   background: url('media/header-background-min.png');
   background-position: 100% 100%;
   background-repeat: no-repeat;
@@ -92,7 +87,7 @@ footer > p {
   padding-top: 20px;
   padding-bottom: 5px;
 }
-=======
+
 .fullpage {
   background-color: grey;
   height: 86vh;
@@ -153,6 +148,10 @@ footer > p {
   filter: grayscale(100%);
 }
 
+.halfheight {
+  height: auto;
+  width: auto;
+}
 
 /*//////////////////////////////////////////////////////////////////////*/
 .mobileheight {
@@ -160,12 +159,7 @@ footer > p {
 }
 
 /*////////////////////////MOBILE CHANGES//////////////////////////////////////////*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:2000px) {
   .mobileheight {
     height: 100vh;
   }
-
-  .halfheight {
-    height: auto;
-  }
-
