@@ -7,3 +7,13 @@ h1 {
     padding-bottom: 37px;
     background-color: #FFCC99;
 }
+
+.fullpage {
+  width: inherit;
+  margin: 0 0 0 0;
+  margin-right: 0;
+}
+
+.halfheight{
+  margin:0 auto;
+}
