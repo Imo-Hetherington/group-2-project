@@ -9,6 +9,7 @@ h1 {
 }
 
 .fullpage {
+  width: inherit;
   margin: 0 0 0 0;
   margin-right: 0;
 }
