@@ -12,8 +12,38 @@ h1 {
   width: inherit;
   margin: 0 0 0 0;
   margin-right: 0;
+ position:relative;
+   margin-top: 240px;
 }
 
 .halfheight{
   margin:0 auto;
 }
+
+/*/////////////////POPUP CSS///////////////////////*/
+
+.popuptext{
+  color: rgba(255,255,255,0.7);
+  background: rgba(0,0,0,0.7);
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  width:100%;
+  height: 100%;
+  left:0%;
+}
+
+.popupcontent{
+  font-family: inherit;
+  padding: 10px 5px 10px 5px;
+  text-align: left;
+}
+
+li .popupcontent{display:block;}
+
+.popupheading{
+font-size: 18px;
+margin: 5px;}
+
+.cinema-name{}
