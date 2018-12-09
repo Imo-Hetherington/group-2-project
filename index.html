@@ -8,12 +8,13 @@
   <link rel='stylesheet' type='text/css' href='style.css'>
   <link rel='stylesheet' type='text/css' href='bootstrap.css'>
   <link rel='stylesheet' type='text/css' href='bootstrap-override.css'>
-  <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+  <script src='jquery-3.3.1.min.js'></script>
+  <script src='script.js'></script>
 </head>
 
 <body>
   <div class="container-fluid">
-    <div class="header">
+    <header>
       <h1>Independent Cinemas in London</h1>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -21,27 +22,46 @@
         <li><a href="contact-us.html">Contact us</a></li>
       </ul>
       <input id="search-box" type="text" placeholder="Search the guide...">
+      </header>
     </div>
-  </div>
 
-  <div class="row">
+
+  <!--<div class="row">
       <div class="container-fluid first-container">
         <img class="map" src="media/Central-London-Film-Map-Black.jpg" alt="">
       </div>
-          </div>
+    </div>-->
 
 <div class="container fullpage">
   <div class="row halfheight">
     <div class="col-md-4 col-sm-12 mobileheight img1">
       <div class="cinema-name">
-      <a class=cinema-link href="https://princecharlescinema.com/PrinceCharlesCinema.dll/Info?p=1&i=1">
-        <h2>Prince Charles Cinema</h2></a>
+        <!--<a class=cinema-link href="https://princecharlescinema.com/PrinceCharlesCinema.dll/Info?p=1&i=1">-->
+        <h2>Prince Charles Cinema</h2><!--</a>-->
       </div>
-        </div>
+      <div class="popuptext popup1">
+        <h3 class="popupheading">Info</h1>
+        <p class="popupcontent">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage.</p>
+        <h3 class="popupheading">Contact Details</h1>
+          <ul class="popupcontent">
+              <li>Email: email@email.co.uk</li>
+              <li>Number: 000000000000</li>
+            </ul>
+      </div>
+    </div>
         <div class="col-md-4 col-sm-12 mobileheight img2">
           <div class="cinema-name">
           <a class=cinema-link href="https://thelexicinema.co.uk/about-us">
           <h2>Lexi Cinema</h2></a>
+        </div>
+        <div class="popuptext popup2">
+          <h3 class="popupheading">Info</h1>
+          <p class="popupcontent">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage.</p>
+          <h3 class="popupheading">Contact Details</h1>
+            <ul class="popupcontent">
+                <li>Email: email@email.co.uk</li>
+                <li>Number: 000000000000</li>
+              </ul>
         </div>
         </div>
       <div class="col-md-4 col-sm-12 mobileheight img3">
@@ -49,43 +69,113 @@
         <a class=cinema-link href="http://phoenixcinema.co.uk/PhoenixCinema.dll/Page?PageID=2">
         <h2>Phoenix Cinema</h2></a>
       </div>
-      </div>
-      <div class="col-md-4 col-sm-12 mobileheight img4">
-        <div class="cinema-name">
-        <a class=cinema-link href="https://www.institut-francais.org.uk/about/about-us/">
-        <h2>Ciné Lumière</h2></a>
+      <div class="popuptext popup3">
+        <h3 class="popupheading">Info</h1>
+        <p class="popupcontent">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage.</p>
+        <h3 class="popupheading">Contact Details</h1>
+          <ul class="popupcontent">
+              <li>Email: email@email.co.uk</li>
+              <li>Number: 000000000000</li>
+            </ul>
       </div>
     </div>
   </div>
 
   <div class="row halfheight">
+      <div class="col-md-4 col-sm-12 mobileheight img4">
+        <div class="cinema-name">
+        <a class=cinema-link href="https://www.institut-francais.org.uk/about/about-us/">
+        <h2>Ciné Lumière</h2></a>
+      </div>
+      <div class="popuptext popup4">
+        <h3 class="popupheading">Info</h1>
+        <p class="popupcontent">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage.</p>
+        <h3 class="popupheading">Contact Details</h1>
+          <ul class="popupcontent">
+              <li>Email: email@email.co.uk</li>
+              <li>Number: 000000000000</li>
+            </ul>
+      </div>
+    </div>
+
       <div class="col-md-4 col-sm-12 mobileheight img5">
         <div class="cinema-name">
         <a class=cinema-link href="http://genesiscinema.co.uk/GenesisCinema.dll/Page?PageID=3">
         <h2>Genesis Cinema</h2></a>
       </div>
+      <div class="popuptext popup5">
+        <h3 class="popupheading">Info</h1>
+        <p class="popupcontent">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage.</p>
+        <h3 class="popupheading">Contact Details</h1>
+          <ul class="popupcontent">
+              <li>Email: email@email.co.uk</li>
+              <li>Number: 000000000000</li>
+            </ul>
       </div>
-    </div>
+      </div>
       <div class="col-md-4 col-sm-12 mobileheight img6" id="popUp">
         <div class="cinema-name">
         <a class=cinema-link href="https://www.peckhamplex.london/">
         <h2>PeckhamPlex</h2></a>
       </div>
+      <div class="popuptext popup6">
+        <h3 class="popupheading">Info</h1>
+        <p class="popupcontent">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage.</p>
+        <h3 class="popupheading">Contact Details</h1>
+          <ul class="popupcontent">
+              <li>Email: email@email.co.uk</li>
+              <li>Number: 000000000000</li>
+            </ul>
+      </div>
+      </div>
     </div>
+      <div class="row halfheight">
           <div class="col-md-4 col-sm-12 mobileheight img7" id="popUp">
             <div class"cinema-name">
             <a class=cinema-link href="http://riocinema.org.uk/RioCinema.dll/Page?PageID=1">
         <h2>Rio Cinema</h2></a>
       </div>
+      <div class="popuptext popup7">
+        <h3 class="popupheading">Info</h1>
+        <p class="popupcontent">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage.</p>
+        <h3 class="popupheading">Contact Details</h1>
+          <ul class="popupcontent">
+              <li>Email: email@email.co.uk</li>
+              <li>Number: 000000000000</li>
+            </ul>
+      </div>
         </div>
       <div class="col-md-4 col-sm-12 mobileheight img8" id="popUp">
+        <div class="cinema-name">
         <a class=cinema-link href="https://www.regentstreetcinema.com/about/">
         <h2>Regent Street Cinema</h2></a>
+      </div>
+        <div class="popuptext popup8">
+          <h3 class="popupheading">Info</h1>
+          <p class="popupcontent">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage.</p>
+          <h3 class="popupheading">Contact Details</h1>
+            <ul class="popupcontent">
+                <li>Email: email@email.co.uk</li>
+                <li>Number: 000000000000</li>
+              </ul>
         </div>
+        </div>
+
       <div class="col-md-4 col-sm-12 mobileheight img9" id="popUp">
+        <div class="cinema-name">
         <a class=cinema-link href="http://www.arthousecrouchend.co.uk/about-the-arthouse/">
         <h2>Art House Cinema</h2></a>
       </div>
+      <div class="popuptext popup9">
+        <h3 class="popupheading">Info</h1>
+        <p class="popupcontent">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage.</p>
+        <h3 class="popupheading">Contact Details</h1>
+          <ul class="popupcontent">
+              <li>Email: email@email.co.uk</li>
+              <li>Number: 000000000000</li>
+            </ul>
+      </div>
+    </div>
     </div>
 </div>
 

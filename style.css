@@ -1,4 +1,4 @@
-div.header {
+header {
   padding-top: 0px;
   left: 0;
   text-align: center;
@@ -80,6 +80,7 @@ input:focus::-webkit-input-placeholder {
   background-color: grey;
   height: 86vh;
   width: 100vh;
+  margin-top: 240px;
 }
 
 .halfheight {
@@ -106,7 +107,7 @@ h2 {
 }
 .img3 {
   background-image: url('media/Phoenix-Cinema.jpg');
-  background-size: square;
+  background-size: cover;
   background-position: center;
   height: 100%;
 }
@@ -117,7 +118,7 @@ h2 {
   height: 100%;
 }
 .img5 {
-  background-image: url('media/Genesis-Cinema.jpg');
+  background-image: url('media/Genesis-Cinema-1.jpg');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -157,7 +158,7 @@ h2 {
  bottom: 0;
  margin: 0;
  width:100%;
- left:-1%;
+ left:0%;
  }
 
 /*///////////////////////FOOTER////////////////////////////////////////*/
