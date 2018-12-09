@@ -1,16 +1,13 @@
-function expandInfo() {
-  var popup = document.getElementById("#mainblurb");
-  popup.classList.toggle("show")
-  }
-
-  <div onmousemove="myMoveFunction()">
-    <p id="demo">I will demonstrate onmousemove!</p>
-  </div>
-
-  <div onmouseenter="myEnterFunction()">
-    <p id="demo2">I will demonstrate onmouseenter!</p>
-  </div>
-
-  <div onmouseover="myOverFunction()">
-    <p id="demo3">I will demonstrate onmouseover!</p>
-  </div>
+$(document).ready(function () {
+    $('#media/Prince-Charles-Cinema.jpg').hover(function () {
+        $(this).stop().animate({
+            opacity: .4
+        }, 200);
+        $('.text').removeClass('hide');
+    }, function () {
+        $(this).stop().animate({
+            opacity: 1
+        }, 500);
+        $('.text').addClass('hide');
+    });
+});
