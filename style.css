@@ -35,7 +35,10 @@ a {
 ul {
   padding: 10px;
   background: #00000000;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .nav-bar{
   display: inline;
@@ -84,9 +87,18 @@ input:focus::-webkit-input-placeholder {
   height: 75%;
 }
 
-h2 {
+.cinema-name {
   font-family: 'Limelight', cursive;
   color: #00c5ff
+}
+
+.popupheading {
+  font-family: 'Limelight', cursive;
+  color: #00c5ff
+}
+
+.popupcontent {
+  font-family: 'Poiret One', cursive;
 }
 
 /*///////////////////////IMAGES////////////////////////////////////////*/
@@ -168,16 +180,21 @@ h2 {
 
 .light {
   color: #fee;
+  font-family: 'Limelight', cursive;
+}
+
+.form-control {
+  font-family: 'Comfortaa', cursive;
+}
+
+#social-buttons {
+  font-family: 'Comfortaa', cursive;
 }
 
 footer > p {
   padding-top: 20px;
   padding-bottom: 5px;
-}
-
-p {
-  font-family: 'Limelight', cursive;
-  color: #fe0020;
+  font-family: 'Comfortaa', cursive;
 }
 
 button {
