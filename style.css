@@ -37,15 +37,12 @@ ul {
   background: #00000000;
 }
 
-li {
+.nav-bar{
   display: inline;
   padding: 0px 10px 0px 10px;
-
+  position:center;
 }
 
-li input[type=text] {
-  float: right;
-}
 
 #search-box {
   float: right;
