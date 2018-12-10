@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
   <title>Guide to Independent Cinemas in London</title>
+  <link rel="shortcut icon" href="ticket-icon.png" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="normalize.css" rel="stylesheet">
@@ -17,11 +18,11 @@
     <header>
       <h1>Independent Cinemas in London</h1>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="guide.html">Index</a></li>
-        <li><a href="contact-us.html">Contact us</a></li>
-      </ul>
-      <input id="search-box" type="text" placeholder="Search the guide...">
+        <li class="nav-bar"><a href="index.html">Home</a></li>
+        <li class="nav-bar"><a href="guide.html">Index</a></li>
+        <li class="nav-bar"><a href="contact-us.html">Contact us</a></li>
+      <li class="nav-bar"><input id="search-box" type="text" placeholder="Search the guide..."></li>
+    </ul>
       </header>
     </div>
 
@@ -36,23 +37,22 @@
   <div class="row halfheight">
     <div class="col-md-4 col-sm-12 mobileheight img1">
       <div class="cinema-name">
-        <!--<a class=cinema-link href="https://princecharlescinema.com/PrinceCharlesCinema.dll/Info?p=1&i=1">-->
-        <h2>Prince Charles Cinema</h2><!--</a>-->
+        <h2>Prince Charles Cinema</h2>
       </div>
       <div class="popuptext popup1">
-        <h3 class="popupheading">Info</h1>
+        <h3 class="popupheading">Info</h3>
         <p class="popupcontent">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage.</p>
-        <h3 class="popupheading">Contact Details</h1>
+        <h3 class="popupheading">Contact Details</h3>
           <ul class="popupcontent">
               <li>Email: email@email.co.uk</li>
               <li>Number: 000000000000</li>
+              <li><button class="btn btn-primary" onclick=window.open("https://princecharlescinema.com/PrinceCharlesCinema.dll/Info?p=1&i=1") target="_blank">Go to Website</button></li>
             </ul>
       </div>
     </div>
         <div class="col-md-4 col-sm-12 mobileheight img2">
           <div class="cinema-name">
-          <a class=cinema-link href="https://thelexicinema.co.uk/about-us">
-          <h2>Lexi Cinema</h2></a>
+          <h2>Lexi Cinema</h2>
         </div>
         <div class="popuptext popup2">
           <h3 class="popupheading">Info</h1>
@@ -61,13 +61,13 @@
             <ul class="popupcontent">
                 <li>Email: email@email.co.uk</li>
                 <li>Number: 000000000000</li>
-              </ul>
+                <li><button class="btn btn-primary" onclick=window.open("https://thelexicinema.co.uk/about-us") target="_blank">Go to Website</button></li>
+            </ul>
         </div>
         </div>
       <div class="col-md-4 col-sm-12 mobileheight img3">
         <div class="cinema-name">
-        <a class=cinema-link href="http://phoenixcinema.co.uk/PhoenixCinema.dll/Page?PageID=2">
-        <h2>Phoenix Cinema</h2></a>
+        <h2>Phoenix Cinema</h2>
       </div>
       <div class="popuptext popup3">
         <h3 class="popupheading">Info</h1>
@@ -76,6 +76,7 @@
           <ul class="popupcontent">
               <li>Email: email@email.co.uk</li>
               <li>Number: 000000000000</li>
+              <li><button class="btn btn-primary" onclick=window.open("http://phoenixcinema.co.uk/PhoenixCinema.dll/Page?PageID=2") target="_blank">Go to Website</button></li>
             </ul>
       </div>
     </div>
@@ -84,8 +85,7 @@
   <div class="row halfheight">
       <div class="col-md-4 col-sm-12 mobileheight img4">
         <div class="cinema-name">
-        <a class=cinema-link href="https://www.institut-francais.org.uk/about/about-us/">
-        <h2>Ciné Lumière</h2></a>
+        <h2>Ciné Lumière</h2>
       </div>
       <div class="popuptext popup4">
         <h3 class="popupheading">Info</h1>
@@ -94,14 +94,14 @@
           <ul class="popupcontent">
               <li>Email: email@email.co.uk</li>
               <li>Number: 000000000000</li>
+              <li><button class="btn btn-primary" onclick=window.open("https://www.institut-francais.org.uk/about/about-us/") target="_blank">Go to Website</button></li>
             </ul>
       </div>
     </div>
 
       <div class="col-md-4 col-sm-12 mobileheight img5">
         <div class="cinema-name">
-        <a class=cinema-link href="http://genesiscinema.co.uk/GenesisCinema.dll/Page?PageID=3">
-        <h2>Genesis Cinema</h2></a>
+        <h2>Genesis Cinema</h2>
       </div>
       <div class="popuptext popup5">
         <h3 class="popupheading">Info</h1>
@@ -110,13 +110,13 @@
           <ul class="popupcontent">
               <li>Email: email@email.co.uk</li>
               <li>Number: 000000000000</li>
+                <li><button class="btn btn-primary" onclick=window.open("http://genesiscinema.co.uk/GenesisCinema.dll/Page?PageID=3") target="_blank">Go to Website</button></li>
             </ul>
       </div>
       </div>
       <div class="col-md-4 col-sm-12 mobileheight img6" id="popUp">
         <div class="cinema-name">
-        <a class=cinema-link href="https://www.peckhamplex.london/">
-        <h2>PeckhamPlex</h2></a>
+        <h2>PeckhamPlex</h2>
       </div>
       <div class="popuptext popup6">
         <h3 class="popupheading">Info</h1>
@@ -125,6 +125,7 @@
           <ul class="popupcontent">
               <li>Email: email@email.co.uk</li>
               <li>Number: 000000000000</li>
+              <li><button class="btn btn-primary" onclick=window.open("https://www.peckhamplex.london/") target="_blank">Go to Website</button></li>
             </ul>
       </div>
       </div>
@@ -132,8 +133,7 @@
       <div class="row halfheight">
           <div class="col-md-4 col-sm-12 mobileheight img7" id="popUp">
             <div class"cinema-name">
-            <a class=cinema-link href="http://riocinema.org.uk/RioCinema.dll/Page?PageID=1">
-        <h2>Rio Cinema</h2></a>
+        <h2>Rio Cinema</h2>
       </div>
       <div class="popuptext popup7">
         <h3 class="popupheading">Info</h1>
@@ -142,13 +142,13 @@
           <ul class="popupcontent">
               <li>Email: email@email.co.uk</li>
               <li>Number: 000000000000</li>
+              <li><button class="btn btn-primary" onclick=window.open("http://riocinema.org.uk/RioCinema.dll/Page?PageID=1") target="_blank">Go to Website</button></li>
             </ul>
       </div>
         </div>
       <div class="col-md-4 col-sm-12 mobileheight img8" id="popUp">
         <div class="cinema-name">
-        <a class=cinema-link href="https://www.regentstreetcinema.com/about/">
-        <h2>Regent Street Cinema</h2></a>
+        <h2>Regent Street Cinema</h2>
       </div>
         <div class="popuptext popup8">
           <h3 class="popupheading">Info</h1>
@@ -157,6 +157,7 @@
             <ul class="popupcontent">
                 <li>Email: email@email.co.uk</li>
                 <li>Number: 000000000000</li>
+                <li><button class="btn btn-primary" onclick=window.open("https://www.regentstreetcinema.com/about/") target="_blank">Go to Website</button></li>
               </ul>
         </div>
         </div>
@@ -173,6 +174,7 @@
           <ul class="popupcontent">
               <li>Email: email@email.co.uk</li>
               <li>Number: 000000000000</li>
+                <li><button class="btn btn-primary" onclick=window.open("http://www.arthousecrouchend.co.uk/about-the-arthouse/") target="_blank">Go to Website</button></li>
             </ul>
       </div>
     </div>

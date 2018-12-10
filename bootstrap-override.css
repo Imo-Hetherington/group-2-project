@@ -40,10 +40,17 @@ h1 {
   text-align: left;
 }
 
-li .popupcontent{display:block;}
+.popupcontent li{
+  align-items: :center;
+  display:block;
+  text-align:center;
+}
 
 .popupheading{
 font-size: 18px;
 margin: 5px;}
 
-.cinema-name{}
+.popupcontent button{
+  margin 10px;
+  
+}
