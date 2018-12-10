@@ -99,6 +99,7 @@ input:focus::-webkit-input-placeholder {
 
 .popupcontent {
   font-family: 'Poiret One', cursive;
+  margin: 20px;
 }
 
 /*///////////////////////IMAGES////////////////////////////////////////*/
