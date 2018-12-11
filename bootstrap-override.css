@@ -37,7 +37,7 @@ h1 {
 .popupcontent{
   font-family: inherit;
   padding: 10px 5px 10px 5px;
-  text-align: left;
+  text-align: center;
 }
 
 .popupcontent li{
@@ -52,5 +52,5 @@ margin: 5px;}
 
 .popupcontent button{
   margin 10px;
-  
+
 }
