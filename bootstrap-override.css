@@ -34,9 +34,10 @@ h1 {
   left:0%;
 }
 
+
 .popupcontent {
   font-family: inherit;
-  padding: 10px 5px 10px 5px;
+  padding: 10px 0px 10px 0px;
   text-align: left;
 }
 
@@ -46,11 +47,13 @@ h1 {
   text-align:center;
 }
 
-.popupheading {
-  font-size: 18px;
-  margin: 5px;
+
+.popupheading{
+font-size: 18px;
+ margin-bottom: 0;
+ padding: 0;
 }
 
-.popupcontent button {
-    margin 10px;
-  }
+.popupcontent button{
+  margin: 10px;
+
