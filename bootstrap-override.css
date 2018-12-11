@@ -47,7 +47,8 @@ h1 {
 }
 
 .popupcontent{
-  font-family: inherit;
+  font-family: 'Comfortaa', cursive;
+  font-size: 14px;
   padding: 10px 5px 10px 5px;
   text-align: center;
 }
